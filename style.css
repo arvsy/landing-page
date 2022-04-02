@@ -1,0 +1,210 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+    background-color: #3882f6;;
+    border-radius: 5px;
+    color: white;
+    width: 70px;
+}
+
+/* -------------- DIV 1 -------------- */
+
+.top{
+    display: flex;
+    background-color: #1f2937;
+}
+
+.top div{
+    border: 1px solid brown; 
+    flex: 1 1 0%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.top .logo {
+    flex: 1.5 1 0%;
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 2vw;
+}
+.links {
+    display: flex;
+    font-size: 18px;
+    padding: 30px 0px;
+    gap: 10px;
+}
+.links a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.top .desc {
+    padding: 50px 50px 50px 0px;
+    color: #f9faf8;
+    padding-left: 2vw;
+}
+.top .desc .awesome{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.top .desc .text{
+    font-size: 18px;
+    color: e5e7eb;
+}
+.top .for-image{
+    margin: 3vw;
+    background-color: #6a6b6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------- DIV 2 -------------- */
+
+.div2 {
+    border: 1px solid brown; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 0px;
+}
+.div2 .info{
+    border: 1px solid red;
+    display: flex;
+    gap: 80px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder
+}
+.div2 .info div{
+    width: 8vw;
+    height: 8vw;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+.div2 .info-text{
+    border: 1px solid red;
+    display: flex;
+    gap: 80px;
+    font-size: 16px;
+}
+.div2 .info-text div{
+    width: 8.4vw;
+    text-align: center;
+
+}
+
+/* -------------- DIV 3 -------------- */
+
+.div3{
+    border: 1px solid brown; 
+    background: #e5e7eb;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote{
+    border: 1px solid brown; 
+    max-width: 45vw;
+    flex: 1 1 0%;
+    font-size: 36px;
+}
+.author{
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.div4{
+    display: flex;
+    border: 1px solid brown; 
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.lastdiv{
+    padding: 50px 50px;
+    min-width: 50vw;
+    height: auto;
+    background: #3882f6;
+    border-radius: 10px;
+    display: flex;
+}
+
+/* -------------- DIV 4 -------------- */
+
+.lastdiv div{
+    border: 1px solid brown;
+    height: 100px;
+    flex: 1 1 0%;
+}
+.lastdiv .left{
+    flex: 2 1 0%;
+    font-size: 20px;
+    color: #e5e7eb;
+}
+.first{
+    color: #f9faf8;
+}
+.div4 .lastdiv .right button{
+    margin: 32px 30px;
+    min-width: 8vw;
+    min-height: 2vw;
+    border: 1px solid white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 100px;
+}
+.footer-content{
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.header{
+    background-color: #1f2937;
+    height: 500px;
+}
+
+.flex-container {
+    display: flex;
+    
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    border: 1px solid brown;
+    flex: 1 1 0%;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  
+  /* only div.one is selected here */
+  .flex-container .one {
+    flex: 2 1 0%;
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 500px;
+  }
+  /*
+
+
